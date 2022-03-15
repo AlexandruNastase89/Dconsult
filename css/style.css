@@ -1,0 +1,360 @@
+body {
+  background-color: #0d1926;
+}
+
+#my-navbarOnMobile {
+  display: none;
+}
+
+/* Navbar */
+
+.my-navbarBackground {
+  border-bottom: 1px solid #000000;
+  background: #132639;
+  background: -webkit-linear-gradient(#132639 0%, #080f17 100%);
+  background: -o-linear-gradient(#132639 0%, #080f17 100%);
+  background: linear-gradient(#132639 0%, #080f17 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132639', endColorstr='#080f17',GradientType=0 );
+}
+
+#my-navbarLogo {
+  min-height: 20px;
+  min-width: 140px;
+  max-height: 30px;
+  transform: rotate(-5deg);
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+}
+
+#my-navbarLogo:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+
+.my-navbarMenu {
+  font-size: 18px !important; /* Overwrite UIKit */
+  text-transform: none !important; /* Overwrite UIKit */
+  color: #B5B7BA !important; /* Overwrite UIKit */
+  font-weight: 500;
+  line-height: 22px;
+  padding-left: 10px !important; /* Overwrite UIKit */
+  padding-right: 10px !important; /* Overwrite UIKit */
+}
+
+.my-navbarMenu:hover {
+  color: #ffffff !important; /* Overwrite UIKit */
+  background-color: #132639;
+  border-bottom: 4px solid #000000;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+}
+
+.my-navbarHeight {
+  min-height: 55px !important;  /* Overwrite UIKit */
+}
+
+.uk-navbar-dropdown {
+  width: 200px;
+  background: #132639;
+  background: -webkit-linear-gradient(#132639 0%, #080f17 100%);
+  background: -o-linear-gradient(#132639 0%, #080f17 100%);
+  background: linear-gradient(#132639 0%, #080f17 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132639', endColorstr='#080f17',GradientType=0 );
+  margin-top: 0 !important; /* Overwrite UIKit */
+}
+
+.my-navbarDropDown {
+  font-size: 16px !important; /* Overwrite UIKit */
+  color: #B5B7BA;
+  line-height: 32px !important; /* Overwrite UIKit */
+  font-weight: 500;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+}
+
+.my-navbarDropDown:hover {
+  color: #ffffff !important; /* Overwrite UIKit */
+  background-color: #132639;
+  transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+}
+
+#my-navbarLangIcon {
+  min-width: 25px;
+  max-height: 35px;
+  opacity: 0.2;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+}
+
+#my-navbarLangIcon:hover {
+  opacity: 0.7;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transform: scale(1.15);
+}
+
+.uk-width-auto, .uk-width-expand {
+  padding: 0 ;
+}
+
+.uk-width-auto .uk-navbar-item {
+  padding 0;
+}
+
+.uk-navbar-nav > li > a {
+  padding: 0 12px;
+}
+
+/* Slideshow */
+
+.my-slideshowParallax h2, .my-slideshowParallax p {
+  color: #000000 !important; /* Overwrite UIKit */
+  opacity: 0.85 !important; /* Overwrite UIKit */
+  position: relative;
+  top: -85px !important;
+}
+
+.my-slideshowOverlayAnchor {
+  text-decoration: none !important; /* Overwrite UIKit */
+}
+
+.my-slideshowOverlayAnchor h3, .my-slideshowOverlayAnchor p {
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+}
+
+.my-slideshowOverlayAnchor:hover h3, .my-slideshowOverlayAnchor:hover p {
+  transform: scale(1.1) !important; /* Overwrite UIKit */
+  font-weight: 500;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+}
+
+.my-slideshowOverlay {
+  top: 30%;
+  left: 10%;
+  width: 80%;
+}
+
+/* Content */
+
+#my-contentGridContainer {
+  max-width: 1600px;
+}
+
+.my-contentAlignTitleCenter {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.my-contentAlignTitleCenter h1 {
+  color: #B5B7BA;
+}
+
+.my-contentTextFormating {
+  text-align: justify;
+  font-size: 18px;
+  color: #B5B7BA;
+}
+
+.my-contentImageBorderBottom {
+  border-bottom: 2px solid #000000;
+}
+
+/* Footer */
+
+footer {
+  border-top: 1px solid #000000;
+}
+
+footer div {
+  color: #B5B7BA;
+  background-color: #080F17;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/* Firme */
+
+.uk-heading-primary {
+  color: #B5B7BA;
+}
+
+.imgOpacity {
+  opacity: 0.6;
+}
+
+h6 {
+  font-size: 24px !important;
+}
+
+/* Planificare Fiscala */
+
+/* Consultanta */
+
+/* Contact */
+
+#my-contactMobile {
+  display: none;
+}
+
+/* Media queries */
+
+
+@media only screen and (max-width: 1200px) {
+  .uk-navbar-item {
+    padding: 0;
+  }
+  .my-navbarLogoContainerMarginLeft {
+    margin-left: 40px;
+  }
+  #my-navbarLogo {
+    min-height: 15px;
+    min-width: 140px;
+    max-height: 25px;
+  }
+  #my-navbarLangIcon {
+    min-width: 18px;
+    max-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .my-navbarLogoContainerMarginLeft a {
+    margin-left: 15px !important;
+  }
+  #my-navbarLogo {
+    min-height: 10px;
+    min-width: 80px;
+    max-height: 18px;
+  }
+  #my-navbarLangIcon {
+    min-width: 15px;
+    max-height: 24px;
+  }
+  .uk-navbar-nav > li > a {
+    padding: 0 8px;
+  }
+  .my-titleSize {
+    font-size: 28px;
+  }
+  h6 {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .my-navbarMenu {
+    font-size: 16px !important; /* Overwrite UIKit */
+    padding-left: 6px !important; /* Overwrite UIKit */
+    padding-right: 6px !important; /* Overwrite UIKit */
+  }
+  .my-navbarLangMarginRight {
+    margin-right: 0 !important;
+  }
+  .uk-navbar-nav > li > a {
+    padding: 0 5px;
+  }
+  .my-navbarLogoContainerMarginLeft {
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #my-navbarOnDesktop {
+    display: none;
+  }
+  #my-navbarOnMobile {
+    display: block;
+  }
+  #my-mobileMenuToggle {
+    font-size: 30px;
+    font-weight: 500;
+    color: #B5B7BA;
+  }
+  #my-mobileMenuToggle:hover {
+    color: #ffffff !important; /* Overwrite UIKit */
+    background-color: #132639;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+  }
+  #my-navbarToggleIconScale {
+    transform: scale(1.3);
+    position: relative;
+    top: 2px;
+    left: -5px;
+  }
+  .uk-offcanvas-bar {
+    background: #132639;
+    background: -webkit-linear-gradient(#132639 0%, #080f17 100%);
+    background: -o-linear-gradient(#132639 0%, #080f17 100%);
+    background: linear-gradient(#132639 0%, #080f17 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132639', endColorstr='#080f17',GradientType=0 );
+  }
+  #my-navbarLogo {
+    min-height: 15px;
+    min-width: 140px;
+    max-height: 25px;
+  }
+  .my-slideshowParallax h2 {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .uk-padding-small {
+    padding: 5px;
+  }
+  .my-contentTextFormating {
+    text-align: justify;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #my-contactDesktop {
+    display: none
+  }
+  #my-contactMobile {
+    display: block;
+    border-top: 2px solid #000000;
+  }
+
+}
